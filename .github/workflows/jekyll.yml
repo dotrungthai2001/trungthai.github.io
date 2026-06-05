@@ -21,6 +21,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Compile CV (LaTeX -> PDF)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: CV_TrungThaiDo.tex
+
+      - name: Publish CV into files/
+        run: |
+          mkdir -p files
+          cp CV_TrungThaiDo.pdf files/CV_TrungThaiDo.pdf
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

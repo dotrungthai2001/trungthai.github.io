@@ -13,10 +13,30 @@
       "Bash(python3 -c \"from PIL import Image; im=Image.open\\('images/profile.png'\\); print\\('size:', im.size, 'mode:', im.mode\\)\")",
       "Bash(python3 -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
       "Bash(python3 -)",
-      "Bash(pkill -f \"jekyll serve\")"
+      "Bash(pkill -f \"jekyll serve\")",
+      "Bash(cp /tmp/tmp.utOZqmc1NJ/CV_TrungThaiDo.pdf files/CV_TrungThaiDo.pdf)",
+      "Bash(rm -rf /tmp/tmp.utOZqmc1NJ)",
+      "Bash(cd /home/thai/Documents/Thesis/dotrungthai2001.github.io; echo \"=== Is the published PDF now trackable? ===\"; git check-ignore -v files/CV_TrungThaiDo.pdf && echo \">>> STILL IGNORED \\(bad\\)\" || echo \">>> files/CV_TrungThaiDo.pdf is NO LONGER ignored \\(good\\)\"; echo; echo \"=== Root build artifact still ignored? ===\"; touch CV_TrungThaiDo.pdf; git check-ignore -v CV_TrungThaiDo.pdf && echo \">>> root PDF ignored \\(good\\)\"; rm -f CV_TrungThaiDo.pdf; echo; echo \"=== git status ===\"; git status --short)",
+      "Bash(identify images/profile.jpg)",
+      "Bash(python3 -c \"from PIL import Image; im=Image.open\\('images/profile.jpg'\\); print\\('size:', im.size\\)\")",
+      "Bash(latexmk -pdf -interaction=nonstopmode -halt-on-error -output-directory=/tmp/photolatex _photo_test.tex)",
+      "Bash(echo \"EXIT=$?\")",
+      "Read(//tmp/photolatex/**)",
+      "Read(//tmp/**)",
+      "Bash(latexmk -C -output-directory=/tmp/photolatex _photo_test.tex)",
+      "Bash(rm -rf /tmp/photolatex)",
+      "Bash(cd /home/thai/Documents/Thesis/dotrungthai2001.github.io; *)",
+      "Bash(kpsewhich needspace.sty)",
+      "Bash(latexmk -pdf -interaction=nonstopmode -halt-on-error -output-directory=/tmp/nslatex _ns_test.tex)",
+      "Bash(chmod +x scripts/build_cv.sh)",
+      "Bash(./scripts/build_cv.sh)",
+      "Bash(latexmk -C)",
+      "Bash(latexmk -gg -pdf -interaction=nonstopmode CV_TrungThaiDo.tex)",
+      "Bash(latexmk -c)"
     ],
     "additionalDirectories": [
-      "/home/thai/Documents/Thesis/dotrungthai2001.github.io"
+      "/home/thai/Documents/Thesis/dotrungthai2001.github.io",
+      "/tmp"
     ]
   }
 }

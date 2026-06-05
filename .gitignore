@@ -26,4 +26,5 @@ package-lock.json
 *.log
 *.out
 *.synctex.gz
-CV_TrungThaiDo.pdf
+# Only ignore the root-level build artifact, NOT the published files/CV_TrungThaiDo.pdf
+/CV_TrungThaiDo.pdf
