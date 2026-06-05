@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f _posts/2012-08-14-blog-post-1.md _posts/2013-08-14-blog-post-2.md _posts/2014-08-14-blog-post-3.md _posts/2015-08-14-blog-post-4.md _posts/2199-01-01-future-post.md)",
+      "Bash(rm -f _drafts/post-draft.md)",
+      "Bash(rm -f _portfolio/portfolio-1.md _portfolio/portfolio-2.html)",
+      "Bash(rmdir _portfolio)",
+      "Bash(rm -f _pages/archive-layout-with-content.md _pages/markdown.md _pages/terms.md _pages/non-menu-page.md _pages/cv-json.md _pages/portfolio.html _pages/page-archive.html _pages/year-archive.html _pages/category-archive.html _pages/tag-archive.html _pages/collection-archive.html _pages/sitemap.md _pages/talkmap.html)",
+      "Bash(cd /home/thai/Documents/Thesis/dotrungthai2001.github.io *)",
+      "Bash(cd /home/thai/.claude/projects/-home-thai-Documents-Thesis-dotrungthai2001-github-io/memory/)",
+      "Bash(cat MEMORY.md)",
+      "Bash(identify images/profile.png)",
+      "Bash(python3 -c \"from PIL import Image; im=Image.open\\('images/profile.png'\\); print\\('size:', im.size, 'mode:', im.mode\\)\")",
+      "Bash(python3 -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
+      "Bash(python3 -)",
+      "Bash(pkill -f \"jekyll serve\")"
+    ],
+    "additionalDirectories": [
+      "/home/thai/Documents/Thesis/dotrungthai2001.github.io"
+    ]
+  }
+}

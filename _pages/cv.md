@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV as PDF](/files/Trung-Thai_DO_CV.pdf)
+[Download CV as PDF](/files/CV_TrungThaiDo.pdf)
 
 Education
 ======
@@ -19,7 +19,6 @@ Education
     *   *INSA Toulouse, France*
 *   **Preparatory Classes for Grandes Écoles** (2019–2021)
     *   *Hue University of Education, Vietnam*
-    *   *Valedictorian*
 *   **Baccalaureate in Mathematics** (2016–2019)
     *   *Quoc Hoc - Hue High School for the Gifted, Vietnam*
     *   *Honors*
@@ -28,7 +27,7 @@ Professional Experience
 ======
 *   **March – Aug. 2024: Internship - Image Processing/Computer Vision**
     *   *Cerema Occitanie, France*
-    *   Supervisor: Pascal Salmane
+    *   Supervisor: Guillaume Saint Pierre, Pascal Salmane
     *   Analyzed road user behavior and interactions using smart cameras.
     *   Co-authored a scientific article for the IEEE ICPRS-24 conference.
 

@@ -18,3 +18,12 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Ignore LaTeX build artifacts from the CV source (keep CV_TrungThaiDo.tex)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+CV_TrungThaiDo.pdf

@@ -8,7 +8,7 @@ repository: "dotrungthai2001/dotrungthai2001.github.io"
 
 # Site Author (for the sidebar)
 author:
-  avatar: "profile.png" # Make sure this file is in your /images/ folder
+  avatar: "profile.jpg" # Square, optimized headshot in /images/
   name: "Trung-Thai DO"
   bio: "PhD student at the University of Toulouse, working on reconstruction methods for 3D photoacoustic imaging."
   location: "Toulouse, France & Singapore"
@@ -24,10 +24,21 @@ include:
   - files
 exclude:
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
+  - CONTRIBUTING.md
+  - package.json
   - vendor
+  - scripts
+  - markdown_generator
+  - CV_TrungThaiDo.tex
+  - "*.log"
+  - "*.aux"
+  - "*.fls"
+  - "*.out"
 
 # Conversion and Markdown Processing
 markdown: kramdown
@@ -46,9 +57,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
